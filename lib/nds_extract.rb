@@ -9,8 +9,8 @@ director_grosses = []
 for i in nds
   director_grosses.push(0)
   i.each do |key, value|
+    pp i.class()
     if key == :name
-      director_names.push(value)
       pp director_names
     end
   end
