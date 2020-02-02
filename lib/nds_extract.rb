@@ -11,6 +11,7 @@ for i in nds
   i.each do |key, value|
     if key == :name
       director_names.push(value)
+      pp director_names
     end
   end
 end
